@@ -1,1 +1,24 @@
 /* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::selection{
+  background-color: rgb(37 99 235);
+  color: white;
+}
+
+.titreP{
+  @apply font-bold text-3xl text-center text-[#252642] mb-6
+  lg:text-5xl xl:text-6xl
+}
+
+.btnmenu{
+  @apply text-white uppercase text-3xl before:content-[''] before:absolute before:bg-[#eee]
+  before:h-[1px] before:w-[75%] before:left-[15%]
+}
+
+.underredline{
+  @apply hover:after:bg-red-500 hover:after:content-[''] hover:after:absolute hover:after:bottom-[-25px]
+  hover:after:left-0 hover:after:w-full hover:after:h-1
+}

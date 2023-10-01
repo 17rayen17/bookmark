@@ -1,0 +1,74 @@
+<!--  Mobile vers-->
+<section class="relative overflow-hidden lg:hidden -z-50">
+  <div
+  class="bg-blue-600 w-full h-[30%] sm:h-[50%] bgblue right-[-75px] top-[75px] absolute rounded-[50px] -z-10"
+></div>
+<img class="z-50" src="../assets/images/illustration-hero.svg" alt="" />
+
+  <div class="p-4 mt-10 grid grid-cols-1 place-items-center lg:hidden">
+  <h1 class="titreP">A Simple Bookmark Manager</h1>
+  <p class="text-center text-[#b1b2b8] font-[500] mb-10">
+    A clean and simple interface to organize <br />
+    your favourite websites. Open a new <br />
+    browser tab and see your sites load <br />
+    instantly. Try it for free.
+  </p>
+  <div class="grid grid-cols-2 place-items-center gap-6">
+    <button
+      class="bg-blue-600 rounded-lg text-white font-semibold p-4 whitespace-nowrap"
+    >
+      Get it on Chrome
+    </button>
+    <button
+      class="bg-[#eeeeee] rounded-lg text-black font-semibold p-4 whitespace-nowrap"
+    >
+      Get it on Firefox
+    </button>
+  </div>
+</div>
+</section>
+
+<!-- end Mobile vers-->
+
+<!--Desktop vers-->
+<div
+  class="hidden lg:relative lg:flex lg:justify-between lg:items-center lg:overflow-hidden"
+>
+  <div class="p-4 ml-20 grid grid-cols-1 place-items-start">
+    <div class="flex flex-col justify-start items-start">
+      <h1 class="font-bold text-5xl text-[#252642] mb-6">
+        A Simple Bookmark <br />
+        Manager
+      </h1>
+      <p class="text-[#b1b2b8] text-2xl font-[500] mb-10">
+        A clean and simple interface to organize your favourite <br> websites. Open a
+        new browser tab and see your sites load instantly. Try it for free.
+      </p>
+    </div>
+    <div class="grid grid-cols-2 place-items-center gap-6">
+      <button
+        class="bg-blue-600 rounded-lg text-white font-semibold p-4 whitespace-nowrap hover:shadow-lg"
+      >
+        Get it on Chrome
+      </button>
+      <button
+        class="bg-[#eeeeee] rounded-lg text-black font-semibold p-4 whitespace-nowrap hover:shadow-lg"
+      >
+        Get it on Firefox
+      </button>
+    </div>
+  </div>
+  <div class="mt-20">
+    <img class="z-50" src="../assets/images/illustration-hero.svg" alt="" />
+    <span
+      class="bg-blue-600 w-full h-[50%] left-[70%] bottom-[20px] absolute rounded-[70px] -z-50"
+    >
+    </span>
+  </div>
+</div>
+<!--end Desktop vers-->
+
+<app-features></app-features>
+<app-extention></app-extention>
+<app-question></app-question>
+<app-footer></app-footer>

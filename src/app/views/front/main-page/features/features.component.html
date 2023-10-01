@@ -1,0 +1,247 @@
+<!-- mobile vers -->
+<div class="p-4 lg:hidden">
+  <h1 class="titreP mt-16">Features</h1>
+  <p class="text-center text-[#b1b2b8] font-[500]">
+    Our aim is to make it quick and easy for you to access your favourite
+    websites. Your bookmarks sync between your devices so you can access them on
+    the go.
+  </p>
+  <div class="grid place-items-center mt-4 p-4 mb-6">
+    <p
+      (click)="changebook()"
+      class="parag hover:font-bold cursor-pointer py-3 w-full text-center"
+    >
+      Simple Bookmarking
+    </p>
+    <p
+      (click)="changespeed()"
+      class="parag2 hover:font-bold cursor-pointer py-3 w-full text-center"
+    >
+      Speedy Searching Easy
+    </p>
+    <p
+      (click)="changeEasy()"
+      class="parag2 hover:font-bold cursor-pointer py-3 w-full text-center"
+    >
+      Easy Sharing
+    </p>
+  </div>
+</div>
+
+<!-- book -->
+<div *ngIf="book">
+  <div class="p-1 relative overflow-hidden lg:hidden">
+    <div
+      class="bg-blue-600 w-full h-[60%] right-[-75px] bottom-0 absolute rounded-[50px] -z-50"
+    ></div>
+    <img
+      class="w-[70%] ml-4 mb-4"
+      src="../../assets/images/illustration-features-tab-1.svg"
+      alt=""
+    />
+  </div>
+
+  <div class="p-4 grid grid-cols-1 place-items-center lg:hidden">
+    <h1 class="titreP mt-16">Bookmark in one click</h1>
+    <p class="text-center text-[#b1b2b8] font-[500] mb-4">
+      Organize your bookmarks however you like. <br />
+      Our simple drag-and-drop interface gives <br />
+      you complete control over how you manage <br />
+      your favourite sites.
+    </p>
+  </div>
+</div>
+<!-- end book -->
+
+<!-- easy -->
+<div *ngIf="easy">
+  <div class="p-1 relative overflow-hidden lg:hidden">
+    <div
+      class="bg-blue-600 w-full h-[60%] right-[-75px] bottom-0 absolute rounded-[50px] -z-50"
+    ></div>
+    <img
+      class="w-[70%] ml-4 mb-4"
+      src="../../assets/images/illustration-features-tab-3.svg"
+      alt=""
+    />
+  </div>
+
+  <div class="p-4 grid grid-cols-1 place-items-center lg:hidden">
+    <h1 class="titreP mt-16">Share your bookmarks</h1>
+    <p class="text-center xl:text-2xl text-[#b1b2b8] font-[500] mb-4">
+      Easily share your bookmarks and collections with others. Create a
+      shareable link that you can send at the click of a button.
+    </p>
+  </div>
+</div>
+<!-- end easy -->
+
+<!-- speedy -->
+<div *ngIf="speedy">
+  <div class="p-1 relative overflow-hidden lg:hidden">
+    <div
+      class="bg-blue-600 w-full h-[60%] right-[-75px] bottom-0 absolute rounded-[50px] -z-50"
+    ></div>
+    <img
+      class="w-[70%] ml-4 mb-4"
+      src="../../assets/images/illustration-features-tab-2.svg"
+      alt=""
+    />
+  </div>
+
+  <div class="p-4 grid grid-cols-1 place-items-center lg:hidden">
+    <h1 class="titreP mt-16">Intelligent search</h1>
+    <p class="text-center xl:text-2xl text-[#b1b2b8] font-[500] mb-4">
+      Our powerful search feature will help you find saved sites in no time
+      <br />
+      at all. No need to trawl through all of your bookmarks.
+    </p>
+  </div>
+</div>
+<!-- end speedy -->
+
+<!-- end mobile vers -->
+
+
+
+
+<!--dektop vers-->
+<div class="hidden lg:p-4 lg:grid lg:place-items-center lg:mb-36">
+  <h1 class="titreP mt-16">Features</h1>
+  <p class="text-center xl:text-3xl text-[#b1b2b8] font-[500]">
+    Our aim is to make it quick and easy for you to access your <br />
+    favourite websites. Your bookmarks sync between your devices <br />
+    so you can access them on the go.
+  </p>
+  <div class="grid grid-cols-3 mt-4 py-4 place-items-center gap-6 relative">
+    <p
+      (click)="changebook()"
+      class="xl:text-3xl font-bold whitespace-nowrap relative text-[#838383] hover:text-black cursor-pointer underredline"
+    >
+      Simple Bookmarking
+    </p>
+    <p
+      (click)="changespeed()"
+      class="xl:text-3xl font-bold whitespace-nowrap relative text-[#838383] hover:text-black cursor-pointer underredline"
+    >
+      Speedy Searching Easy
+    </p>
+    <p
+      (click)="changeEasy()"
+      class="xl:text-3xl font-bold whitespace-nowrap relative text-[#838383] hover:text-black cursor-pointer underredline"
+    >
+      Easy Sharing
+    </p>
+    <div
+      class="bg-[#bdbcbc] absolute bottom-[-10px] h-[2px] right-[2%] w-full"
+    ></div>
+  </div>
+</div>
+
+<!--end dektop vers-->
+
+<!-- dektop vers-->
+
+<!-- Book -->
+<div
+  *ngIf="book"
+  class="hidden lg:relative lg:grid lg:grid-cols-2 xl:gap-6 lg:mb-10"
+>
+  <div>
+    <span
+      class="bg-blue-600 w-full h-[70%] xl:right-[65%] right-[60%] bottom-0 absolute rounded-[70px] -z-50"
+    >
+    </span>
+    <img
+      class="w-[80%] xl:w-[90%] ml-16 mb-4"
+      src="../../assets/images/illustration-features-tab-1.svg"
+      alt=""
+    />
+  </div>
+  <div class="xl:mt-20">
+    <h1 class="font-bold text-3xl xl:text-6xl text-[#252642] mb-6">
+      Bookmark in one click
+    </h1>
+    <p class="text-[#b1b2b8] xl:text-3xl font-[500] mb-10">
+      Organize your bookmarks however you like. Our
+      simple drag-and-drop interface gives you complete
+      control over how you manage your favourite sites.
+    </p>
+    <button
+      class="bg-blue-700 rounded-lg text-white font-semibold hover:shadow-lg py-3 px-4 whitespace-nowrap"
+    >
+      More Info
+    </button>
+  </div>
+</div>
+<!--end Book-->
+
+<!-- speedy -->
+<div
+  *ngIf="speedy"
+  class="hidden lg:relative lg:grid lg:grid-cols-2 xl:gap-6 lg:mb-10"
+>
+  <div>
+    <span
+      class="bg-blue-600 w-full h-[70%] xl:right-[65%] right-[70%] bottom-0 absolute rounded-[70px] -z-50"
+    >
+    </span>
+    <img
+      class="w-[70%] xl:w-[90%] ml-16 mb-4"
+      src="../../assets/images/illustration-features-tab-2.svg"
+      alt=""
+    />
+  </div>
+  <div class="xl:mt-20">
+    <h1 class="font-bold text-3xl xl:text-6xl text-[#252642] mb-6">
+      Intelligent search
+    </h1>
+    <p class="text-[#b1b2b8] xl:text-3xl font-[500] mb-10">
+      Our powerful search feature will help you find saved
+      sites in no time at all. No need to trawl through all of
+      your bookmarks.
+    </p>
+    <button
+      class="bg-blue-700 rounded-lg text-white font-semibold hover:shadow-lg py-3 px-4 whitespace-nowrap"
+    >
+      More Info
+    </button>
+  </div>
+</div>
+<!--end speedy-->
+
+<!-- easy -->
+<div
+  *ngIf="easy"
+  class="hidden lg:relative lg:grid lg:grid-cols-2 xl:gap-6 lg:mb-10"
+>
+  <div>
+    <span
+      class="bg-blue-600 w-full h-[70%] xl:right-[65%] right-[60%] bottom-0 absolute rounded-[70px] -z-50"
+    >
+    </span>
+    <img
+      class="w-[80%] xl:w-[90%] ml-16 mb-4"
+      src="../../assets/images/illustration-features-tab-3.svg"
+      alt=""
+    />
+  </div>
+  <div class="xl:mt-20">
+    <h1 class="font-bold text-3xl xl:text-6xl text-[#252642] mb-6">
+      Share your bookmarks
+    </h1>
+    <p class="text-[#b1b2b8] xl:text-3xl font-[500] mb-10">
+      Easily share your bookmarks and collections with 
+      others. Create a shareable link that you can send at
+      the click of a button.
+    </p>
+    <button
+      class="bg-blue-700 rounded-lg text-white font-semibold hover:shadow-lg py-3 px-4 whitespace-nowrap"
+    >
+      More Info
+    </button>
+  </div>
+</div>
+<!--end easy-->
+
+<!--end dektop vers-->
